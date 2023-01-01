@@ -8,26 +8,6 @@
   text-align: center;
   margin: 0;
   padding: 0;
-
-}
-
-.App .scroll_up {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -43,4 +23,72 @@
   }
 }
 
+/* ::::== LANDING PAGE ==:::: */
 
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 4, 17);
+  color: rgb(204, 206, 207);
+  display: grid;
+  grid-template-columns: 2fr 2fr 0.5fr;
+  grid-column-gap: 60px;
+}
+
+aside {
+  /* width: 45%; */
+}
+
+.description {
+  /* width: 45%; */
+  margin: auto;
+  text-align: left;
+}
+.description h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.description button {
+  border: 2px solid blue;
+  padding: 1rem;
+  width: 150px;
+  background-color: transparent;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: fit-content;
+  border-radius: 50px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.description button:hover{
+background-color: blue;
+transition: 1s
+}
+
+
+.icon {
+  background-color: blue;
+  padding: 17px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+.navigation {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+ul > li{
+  list-style: none;
+  
+}
