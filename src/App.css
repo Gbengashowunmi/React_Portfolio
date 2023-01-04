@@ -53,6 +53,7 @@ main {
   display: grid;
   grid-template-columns: 2fr 2.5fr 0.2fr;
   grid-column-gap: 4rem;
+  position: relative;
 }
 
 /* ==================
@@ -441,6 +442,7 @@ section .hr {
   main {
     display: block;
     padding-top: 2rem;
+    position: relative;
   }
   aside {
     width: 15rem;
@@ -471,6 +473,7 @@ padding-bottom: 4rem;
     justify-content: space-between;
     position: fixed;
     bottom: 0;
+    left: 0;
     background-color: var(--clr-grey);
     width: 100%;
     z-index: 5;
