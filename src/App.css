@@ -444,7 +444,6 @@ section .hr {
     padding-top: 2rem;
     position: relative;
     padding-bottom: 5rem;
-height: fit-content;
   }
   aside {
     width: 15rem;
@@ -474,7 +473,7 @@ margin-bottom: 3rem;
     margin: 0;
     justify-content: space-between;
     position: fixed;
-    top: calc(100vh - 4.5rem);
+    top: calc(90vh);
     left: 0;
     background-color: var(--clr-grey-3);
     width: 100%;
