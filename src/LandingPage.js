@@ -1,6 +1,6 @@
 import React from "react";
 import { ImArrowRight2 } from "react-icons/im";
-import { IoMoon, IoSunny } from "react-icons/io5";
+import {  IoSunny } from "react-icons/io5";
 import Navigation from "./components/Navigation";
 
 export default function LandingPage() {

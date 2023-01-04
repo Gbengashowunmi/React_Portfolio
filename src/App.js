@@ -1,13 +1,11 @@
 import React from "react";
-import { IoSunny } from "react-icons/io5";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/about/About";
-import Navigation from "./components/Navigation";
 import Portfolio from "./components/portfolio/Portfolio";
 import LandingPage from "./LandingPage";
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <BrowserRouter>
