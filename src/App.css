@@ -474,7 +474,7 @@ margin-bottom: 3rem;
     margin: 0;
     justify-content: space-between;
     position: fixed;
-    top: calc(100vh - 4.5rem);
+    top: calc(90vh - 4.5rem);
     left: 0;
     background-color: var(--clr-grey-3);
     width: 100%;
