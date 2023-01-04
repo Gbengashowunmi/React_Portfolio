@@ -474,6 +474,7 @@ padding-bottom: 4rem;
     background-color: var(--clr-grey);
     width: 100%;
     z-index: 5;
+    height: fit-content;
   }
 
   ul {
