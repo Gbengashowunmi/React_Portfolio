@@ -10,8 +10,9 @@ export default function LandingPage() {
         <img src="" alt="mine" />
       </aside>
       <div className="description">
-        <h2>i'm gbenga showunmi</h2>
-        <h2>Web developer</h2>
+        <p className="magenta"> ~Hi Distinguished! </p>
+        <h2 className="name"> i'm gbenga showunmi.</h2>
+        <h2 className="job-title">Web developer</h2>
         <p>
           I'm a Tunisian based web designer & front-end developer focused on
           crafting clean & user-friendly experiences, I am passionate about
@@ -19,15 +20,17 @@ export default function LandingPage() {
           me.
         </p>
 
-        <button className="about">
-          about me
-            {/* <span className="icon"> */}
-              <ImArrowRight2 className="icon" />
-            {/* </span> */}
+        <button>
+          About Me
+          <span className="arrow">
+            <ImArrowRight2 className="arrow_icon" />
+          </span>
         </button>
       </div>
-      {/* <IoSunny />
-      <IoMoon /> */}
+
+      <div className="dark_mode">
+        <IoSunny className="react_icon" />
+      </div>
       <div className="navigation">
         <Navigation />
       </div>

@@ -6,24 +6,33 @@ import {
   IoPerson,
 } from "react-icons/io5";
 import { ImNewspaper } from "react-icons/im";
+import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
+
+  
   return (
     <ul>
       <li>
-        <IoHome />
+        <NavLink to="/">
+          <IoHome className="react_icon" />
+        </NavLink>
       </li>
       <li>
-        <ImNewspaper />
+        <NavLink to="/about">
+          <IoPerson className="react_icon" />
+        </NavLink>
       </li>
       <li>
-        <IoMailOpenSharp />
+        <NavLink to="/portfolio">
+          <IoBriefcaseSharp className="react_icon" />
+        </NavLink>
       </li>
       <li>
-        <IoBriefcaseSharp />
+        <ImNewspaper className="react_icon" />
       </li>
       <li>
-        <IoPerson />
+        <IoMailOpenSharp className="react_icon" />
       </li>
     </ul>
   );
