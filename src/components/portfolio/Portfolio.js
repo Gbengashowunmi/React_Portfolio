@@ -9,7 +9,6 @@ export default function Portfolio() {
       <header>
         <h1 className="back-text">works</h1>
         <h1 className="blue">
-          {" "}
           <span>My</span> Portfolio
         </h1>
       </header>

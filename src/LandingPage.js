@@ -1,13 +1,14 @@
 import React from "react";
 import { ImArrowRight2 } from "react-icons/im";
 import {  IoSunny } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import Navigation from "./components/Navigation";
 
 export default function LandingPage() {
   return (
     <main>
       <aside>
-        <img src="" alt="mine" />
+        <img src="/images/gbenga.jpeg" alt="mine" />
       </aside>
       <div className="description">
         <p className="magenta"> ~Hi Distinguished! </p>
@@ -19,13 +20,14 @@ export default function LandingPage() {
           building excellent software that improves the lives of those around
           me.
         </p>
-
+<Link to="/about">
         <button>
           About Me
           <span className="arrow">
             <ImArrowRight2 className="arrow_icon" />
           </span>
         </button>
+        </Link>
       </div>
 
       <div className="dark_mode">
