@@ -11,7 +11,7 @@
   --clr-white: #fff;
   --clr-grey-2: #c2c4c5;
   --clr-grey: rgba(150, 148, 148, 0.178);
-  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-grey-3: rgb(15, 1, 19);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-magenta: magenta;
 }
@@ -443,6 +443,8 @@ section .hr {
     display: block;
     padding-top: 2rem;
     position: relative;
+    padding-bottom: 5rem;
+height: fit-content;
   }
   aside {
     width: 15rem;
@@ -450,7 +452,7 @@ section .hr {
     border-radius: 50%;
     border: 3px solid var(--clr-grey);
 margin: auto;
-padding-bottom: 4rem;
+margin-bottom: 3rem;
   }
 
   .description {
@@ -472,18 +474,18 @@ padding-bottom: 4rem;
     margin: 0;
     justify-content: space-between;
     position: fixed;
-    bottom: 0;
+    top: calc(100vh - 4.5rem);
     left: 0;
-    background-color: var(--clr-grey);
+    background-color: var(--clr-grey-3);
     width: 100%;
     z-index: 5;
-    height: fit-content;
+    height: 4.5rem;
   }
 
   ul {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     z-index: 5;
   }
   ul > li {
@@ -538,6 +540,7 @@ padding-bottom: 4rem;
   section {
     padding-top: 2rem;
     position: relative;
+    padding-bottom: 5rem;
   }
   header .back-text {
     font-size: 12vw;
